@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('zenbeatApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [

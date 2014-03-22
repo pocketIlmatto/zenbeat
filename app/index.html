@@ -10,9 +10,21 @@
 
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
     <!-- endbuild -->
   </head>
   <body ng-app="zenbeatApp">
+  <div class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Zen Beat</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Log In</a></li>
+      </ul>
+  </div>
+  </div>
+
     <!-- Add your site or application content here -->
     <div class="container" ng-view=""></div>
 
